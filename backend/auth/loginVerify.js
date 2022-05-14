@@ -14,6 +14,7 @@ exports. isAuthenticate=(req,res,next)=>{
         User.findByPk(userId.id).then(user=>{
             console.log(JSON.stringify(user))
             req.user=user;
+            console.log("user is"+user)
             next();
         })
         .catch(err=>{
