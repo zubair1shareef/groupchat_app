@@ -5,4 +5,5 @@ const verifyLogin=require('../auth/loginVerify')
 
 
 router.post('/addMessage',verifyLogin.isAuthenticate,MessageController.addMeassage)
-module.exports=router;
+router.get('/getMessage',MessageController.getMeassages)
+module.exports=router

@@ -28,7 +28,7 @@ app.use('/',(req,res)=>{
 })
 
 
-// sequelize.sync({force:true})
+//  sequelize.sync({force:true})
  sequelize.sync()
 
 .then(()=>{
