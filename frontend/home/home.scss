@@ -23,13 +23,15 @@
     }
     .title{
         margin: 0px auto;
-        
+
     }
     .messages_cont{
         margin-top: 15px;
+        overflow-y: scroll;
 
         ul{
             text-decoration: none;
+          
             .even{
                 text-decoration: none;
                 list-style: none;
