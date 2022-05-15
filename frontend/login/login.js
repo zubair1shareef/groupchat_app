@@ -35,7 +35,7 @@ form.addEventListener('submit',async(e)=>{
 
    }).then(()=>{
        console.log('login sucess')
-         window.location.replace('../index.html');
+         window.location.replace('../groups/groups.html');
    })
    .catch(error=>{
        console.log(error)

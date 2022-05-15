@@ -60,6 +60,10 @@
 
 }
 }
+
+.add_message_none{
+   display: none;
+}
 .add_message{
     background-color: rgb(40, 39, 89);
     width: 100%;
@@ -76,5 +80,21 @@
     button{
         height: 2.2rem;
         margin-left: 2px;
+    }
+   .addmemberCOnt{
+       position: absolute;
+       right: 10px;
+       .addMembersinput{
+        width: 9rem;
+        height: 2.2rem;
+       }
+
+    }
+    .addMembersBtn{
+        border: none;
+        border-radius: 10px;
+        border: 1px solid white;
+        background-color: rgb(126, 76, 228);
+        color: white;
     }
 }

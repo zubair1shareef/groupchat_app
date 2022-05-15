@@ -64,6 +64,10 @@
   padding-left: 10px;
 }
 
+.add_message_none {
+  display: none;
+}
+
 .add_message {
   background-color: #282759;
   width: 100%;
@@ -87,5 +91,23 @@
 .add_message button {
   height: 2.2rem;
   margin-left: 2px;
+}
+
+.add_message .addmemberCOnt {
+  position: absolute;
+  right: 10px;
+}
+
+.add_message .addmemberCOnt .addMembersinput {
+  width: 9rem;
+  height: 2.2rem;
+}
+
+.add_message .addMembersBtn {
+  border: none;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: #7e4ce4;
+  color: white;
 }
 /*# sourceMappingURL=home.css.map */
